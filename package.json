@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js -f json:reports/cucumber_report.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "chai": "^4.3.0",
     "chromedriver": "^88.0.0",
-    "cucumber": "^7.0.0-rc.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.3.0",
     "selenium-webdriver": "^4.0.0-alpha.8"
   }
 }

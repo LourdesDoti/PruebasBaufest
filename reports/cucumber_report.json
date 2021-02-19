@@ -1,0 +1,141 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Prueba Baufest",
+    "line": 1,
+    "id": "prueba-baufest",
+    "tags": [],
+    "uri": "features\\tests\\pruebaBaufest.feature",
+    "elements": [
+      {
+        "id": "prueba-baufest;ejercicio-1-automatizacion-web",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ejercicio 1 automatizacion web",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Abro la pagina web",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Prueba",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Voy a la seccion de laptops",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Agrego una laptop al carrito",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verifico que la laptop se agrego correctamente",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "prueba-baufest;ejercicio-2-automatizacion-web-service",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Ejercicio 2 automatizacion web service",
+        "tags": [
+          {
+            "name": "@PRUEBA",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "Agrego una mascota",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Busco a la mascota por su id",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Modifico el nombre de la mascota agregada",
+            "match": {
+              "location": "features\\steps\\pruebaBaufest.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 577000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

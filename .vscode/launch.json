@@ -27,10 +27,10 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceRoot}/node_modules/cucumber/bin/cucumber-js",
-            "args": [
-                "${workspaceRoot}/Features/Tests/",
+            "args": [ "${workspaceRoot}/features/tests/pruebaBaufest.feature",
                 "--tags",
                 "@PRUEBA"
+                
             ]
         }
     ]
