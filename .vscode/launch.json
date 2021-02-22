@@ -8,20 +8,6 @@
             "type": "node",
             "request": "launch",
             "console": "integratedTerminal",
-            "name": "EtiquetaPrueba",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "cucumber-js",
-            "args": [
-        
-            ],
-        },
-
-        {
-            "type": "node",
-            "request": "launch",
-            "console": "integratedTerminal",
             "name": "PRUEBA",
             "skipFiles": [
                 "<node_internals>/**"

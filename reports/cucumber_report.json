@@ -12,7 +12,12 @@
         "keyword": "Scenario",
         "line": 5,
         "name": "Ejercicio 1 automatizacion web",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@PRUEBA",
+            "line": 3
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -32,13 +37,14 @@
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "Prueba",
+            "name": "Registrar usuario",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:37"
+              "location": "features\\steps\\pruebaBaufest.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 46127000000
+              "status": "failed",
+              "duration": 4362000000,
+              "error_message": "ElementNotInteractableError: element not interactable\n  (Session info: chrome=88.0.4324.182)\n    at Object.throwDecodedError (C:\\Users\\ivang\\Desktop\\PruebaBaufest\\node_modules\\selenium-webdriver\\lib\\error.js:517:15)\n    at parseHttpResponse (C:\\Users\\ivang\\Desktop\\PruebaBaufest\\node_modules\\selenium-webdriver\\lib\\http.js:655:13)\n    at Executor.execute (C:\\Users\\ivang\\Desktop\\PruebaBaufest\\node_modules\\selenium-webdriver\\lib\\http.js:581:28)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\ivang\\Desktop\\PruebaBaufest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:724:17)\n    at async ThisWorld.<anonymous> (C:\\Users\\ivang\\Desktop\\PruebaBaufest\\features\\steps\\pruebaBaufest.js:18:16)"
             }
           },
           {
@@ -47,11 +53,10 @@
             "line": 8,
             "name": "Voy a la seccion de laptops",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:67"
+              "location": "features\\steps\\pruebaBaufest.js:38"
             },
             "result": {
-              "status": "passed",
-              "duration": 8094000000
+              "status": "skipped"
             }
           },
           {
@@ -60,11 +65,10 @@
             "line": 9,
             "name": "Agrego una laptop al carrito",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:73"
+              "location": "features\\steps\\pruebaBaufest.js:43"
             },
             "result": {
-              "status": "passed",
-              "duration": 8633000000
+              "status": "skipped"
             }
           },
           {
@@ -73,11 +77,10 @@
             "line": 10,
             "name": "Verifico que la laptop se agrego correctamente",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:112"
+              "location": "features\\steps\\pruebaBaufest.js:51"
             },
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "skipped"
             }
           }
         ]
@@ -87,12 +90,7 @@
         "keyword": "Scenario",
         "line": 13,
         "name": "Ejercicio 2 automatizacion web service",
-        "tags": [
-          {
-            "name": "@PRUEBA",
-            "line": 12
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -101,11 +99,11 @@
             "line": 14,
             "name": "Agrego una mascota",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:14"
+              "location": "features\\steps\\pruebaBaufest.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 1062000000
+              "duration": 1497000000
             }
           },
           {
@@ -114,11 +112,11 @@
             "line": 15,
             "name": "Busco a la mascota por su id",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:82"
+              "location": "features\\steps\\pruebaBaufest.js:81"
             },
             "result": {
               "status": "passed",
-              "duration": 628000000
+              "duration": 622000000
             }
           },
           {
@@ -127,11 +125,11 @@
             "line": 16,
             "name": "Modifico el nombre de la mascota agregada",
             "match": {
-              "location": "features\\steps\\pruebaBaufest.js:88"
+              "location": "features\\steps\\pruebaBaufest.js:87"
             },
             "result": {
               "status": "passed",
-              "duration": 577000000
+              "duration": 604000000
             }
           }
         ]
